@@ -38,7 +38,9 @@ export default function PlatformSection() {
               className="inline-flex w-fit items-center gap-2 mt-6 rounded-full bg-orange-500 hover:bg-orange-400 text-white px-5 py-2.5 text-sm font-semibold transition-colors"
             >
               Buy Course
-              <span className="w-5 h-5 rounded-full bg-white/20 grid place-items-center text-xs">-></span>
+              <span className="w-5 h-5 rounded-full bg-white/20 grid place-items-center text-xs">
+  &rarr;
+</span>
             </a>
           </div>
 
@@ -125,7 +127,7 @@ export default function PlatformSection() {
               href="/pricing"
               className="relative mt-6 inline-block text-sm font-semibold text-orange-300 hover:text-orange-200 transition-colors"
             >
-              Buy Course ->
+              Buy Course &rarr;
             </a>
           </article>
         </div>

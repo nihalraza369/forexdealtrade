@@ -21,7 +21,7 @@ export default function IndicatorsSection() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(circle at 50% 0%, rgba(245,158,11,0.2), transparent 45%), radial-gradient(circle at 85% 90%, rgba(120,53,15,0.18), transparent 42%)',
+            'radial-gradient(circle at 50% 0%, rgba(168,85,247,0.2), transparent 45%), radial-gradient(circle at 85% 90%, rgba(109,40,217,0.18), transparent 42%)',
         }}
       />
       <div
@@ -35,18 +35,18 @@ export default function IndicatorsSection() {
 
       <div className="relative max-w-6xl mx-auto text-center">
         <h2 className="text-white text-4xl md:text-6xl leading-tight font-semibold max-w-4xl mx-auto">
-          Elevate Your <span className="text-amber-400">Trading</span> with
+          Elevate Your <span className="text-purple-400">Trading</span> with
           <br />
           Advanced Market Tools
         </h2>
         <p className="text-stone-300 text-sm md:text-base max-w-3xl mx-auto mt-4 leading-relaxed">
-          ForexDeals indicator suite highlights market momentum, entry zones, and risk levels clearly. This helps you make confident, structured decisions with precision.
+          DrWhoTrades indicator suite highlights market momentum, entry zones, and risk levels clearly. This helps you make confident, structured decisions with precision.
         </p>
 
         <div className="mt-7 flex items-center justify-center gap-3">
           <a
             href="/pricing"
-            className="px-8 py-3 rounded-full bg-amber-400 text-[#1a1308] text-sm font-semibold hover:bg-amber-300 hover:scale-110 shadow-lg hover:shadow-xl transition-all active:scale-95"
+            className="px-8 py-3 rounded-full bg-purple-400 text-white text-sm font-semibold hover:bg-purple-300 hover:scale-110 shadow-lg hover:shadow-xl transition-all active:scale-95"
           >
             Early Access
           </a>
@@ -59,12 +59,12 @@ export default function IndicatorsSection() {
         </div>
 
         <div className="relative mt-12 max-w-5xl mx-auto">
-          <div className="absolute inset-x-10 -top-4 h-full rounded-2xl border border-amber-400/20 bg-[#140f0b]/40 -rotate-[2deg]" />
-          <div className="absolute inset-x-8 -top-2 h-full rounded-2xl border border-amber-400/30 bg-[#140f0b]/50 -rotate-[1deg]" />
+          <div className="absolute inset-x-10 -top-4 h-full rounded-2xl border border-purple-400/20 bg-[#140f0b]/40 -rotate-[2deg]" />
+          <div className="absolute inset-x-8 -top-2 h-full rounded-2xl border border-purple-400/30 bg-[#140f0b]/50 -rotate-[1deg]" />
 
-          <div className="relative rounded-2xl border border-amber-400/40 bg-[#0d0b08]/95 px-5 md:px-8 py-6 text-left shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+          <div className="relative rounded-2xl border border-purple-400/40 bg-[#0d0b08]/95 px-5 md:px-8 py-6 text-left shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
             <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
-              <p className="text-amber-100 text-sm font-medium">CFDs On Gold (US$/Oz.)</p>
+              <p className="text-purple-100 text-sm font-medium">CFDs On Gold (US$/Oz.)</p>
               <div className="flex items-center gap-4 text-[11px] tracking-widest uppercase">
                 <span className="text-emerald-300">Open +0.31%</span>
                 <span className="text-emerald-300">High +0.77%</span>
@@ -117,7 +117,7 @@ export default function IndicatorsSection() {
                 <line x1="0" y1="150" x2="440" y2="95" stroke="rgba(234,179,8,0.42)" strokeWidth="2" />
               </svg>
 
-              <div className="absolute left-4 bottom-6 rounded-lg border border-amber-300/35 bg-amber-400/90 text-[#1e160a] text-xs px-4 py-3 font-medium max-w-[280px]">
+              <div className="absolute left-4 bottom-6 rounded-lg border border-purple-300/35 bg-purple-400/90 text-white text-xs px-4 py-3 font-medium max-w-[280px]">
                 Indicator provides smart confirmation for clearer entries and stop-loss placements.
               </div>
             </div>

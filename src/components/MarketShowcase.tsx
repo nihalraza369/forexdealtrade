@@ -22,10 +22,10 @@ export default function MarketShowcase() {
       </div>
 
       <div className="absolute left-1/2 top-0 -translate-x-1/2 w-[850px] h-[420px] pointer-events-none">
-        <div className="absolute inset-0 rounded-full border border-orange-600/40" />
-        <div className="absolute inset-[9%] rounded-full border border-orange-500/30" />
-        <div className="absolute inset-[18%] rounded-full border border-orange-400/25" />
-        <div className="absolute inset-[27%] rounded-full border border-orange-300/20" />
+        <div className="absolute inset-0 rounded-full border border-purple-600/40" />
+        <div className="absolute inset-[9%] rounded-full border border-purple-500/30" />
+        <div className="absolute inset-[18%] rounded-full border border-purple-400/25" />
+        <div className="absolute inset-[27%] rounded-full border border-purple-300/20" />
       </div>
 
       <div className="relative max-w-6xl mx-auto text-center pt-4">
@@ -35,12 +35,12 @@ export default function MarketShowcase() {
           With More Confidence
         </h2>
         <p className="text-stone-300 text-sm md:text-base mt-3 max-w-2xl mx-auto">
-          ForexDeals tools aapko analysis, execution aur risk discipline ko ek focused workflow me lane me help karte hain.
+          DrWhoTrades tools aapko analysis, execution aur risk discipline ko ek focused workflow me lane me help karte hain.
         </p>
 
         <a
           href="/pricing"
-          className="inline-flex items-center gap-2 mt-6 rounded-full bg-orange-500 hover:bg-orange-400 text-white px-6 py-3 text-sm font-semibold transition-colors"
+          className="inline-flex items-center gap-2 mt-6 rounded-full bg-purple-500 hover:bg-purple-400 text-white px-6 py-3 text-sm font-semibold transition-colors"
         >
           Buy Course
           <span className="w-5 h-5 rounded-full bg-white/20 grid place-items-center text-xs">+</span>
@@ -62,7 +62,7 @@ export default function MarketShowcase() {
                   </div>
                   <div className="text-right">
                     <p className="text-sm text-stone-200">{row.val}</p>
-                    <p className="text-[11px] text-orange-300">{row.move}</p>
+                    <p className="text-[11px] text-purple-300">{row.move}</p>
                   </div>
                 </div>
               ))}
@@ -78,7 +78,7 @@ export default function MarketShowcase() {
                 <path
                   d="M0 120 C34 104, 58 125, 84 88 C108 53, 138 108, 168 92 C192 80, 222 32, 252 68 C276 98, 308 45, 338 59 C355 65, 368 52, 380 48"
                   fill="none"
-                  stroke="#fb923c"
+                  stroke="#a855f7"
                   strokeWidth="4"
                   strokeLinecap="round"
                 />

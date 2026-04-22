@@ -5,7 +5,7 @@ export default function FounderSection() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(circle at 12% 18%, rgba(249,115,22,0.2), transparent 42%), radial-gradient(circle at 88% 75%, rgba(194,65,12,0.17), transparent 40%)',
+            'radial-gradient(circle at 12% 18%, rgba(168,85,247,0.22), transparent 42%), radial-gradient(circle at 88% 75%, rgba(109,40,217,0.2), transparent 40%)',
         }}
       />
 
@@ -13,47 +13,49 @@ export default function FounderSection() {
         <article className="">
           <div className="rounded-xl overflow-hidden border border-white/10">
             <img
-              src="/arfounder.PNG"
-              alt="Founder ForexDeals Karachi"
+              src="/dcv.PNG"
+              alt="Founder DrWhoTrades"
               className="w-full h-full object-cover object-top"
             />
           </div>
 
           <div className="mt-4 flex items-center gap-3">
-            <img src="/fxarlogo.png" alt="ForexDeals Logo" className="h-10 w-auto" />
+            <span className="font-black uppercase tracking-[0.16em] text-white text-sm sm:text-base" style={{ textShadow: '0 0 18px rgba(168,85,247,0.45)' }}>
+              DrWhoTrades
+            </span>
             <div>
-              <p className="text-orange-200 text-xs tracking-[0.18em] uppercase">Founder</p>
-              <p className="text-white text-base font-semibold">ForexDeals Karachi</p>
+              <p className="text-purple-200 text-xs tracking-[0.18em] uppercase">Founder</p>
+              <p className="text-white text-base font-semibold">Miraj Khan</p>
             </div>
           </div>
         </article>
 
         <div>
           <span className="section-tag">Meet The Founder</span>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-amber-50 mb-4 leading-tight">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-purple-100 mb-4 leading-tight">
             Real Market Experience,
             <br />
             Real Trader Mentorship
           </h2>
 
           <p className="text-stone-300 text-sm md:text-base leading-relaxed mb-4">
-            ForexDeals founder's core focus is ensuring every student understands the market before trading. This approach stands on three pillars: discipline, risk control, and psychology training.
+            Miraj Khan's core focus is ensuring every student understands the market before trading. This approach stands on three pillars: discipline, risk control, and psychology training.
           </p>
           <p className="text-stone-300 text-sm md:text-base leading-relaxed mb-8">
             Through daily analysis sessions, practical examples, and performance reviews, students are guided step-by-step. The mentorship model's goal is building long-term consistency so traders make stable decisions in every market condition.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-4 py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Mentorship</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-4 py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Mentorship</p>
               <p className="text-white font-semibold mt-1">Hands-On Guidance</p>
             </div>
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-4 py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Approach</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-4 py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Approach</p>
               <p className="text-white font-semibold mt-1">Risk First</p>
             </div>
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-4 py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Result</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-4 py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Result</p>
               <p className="text-white font-semibold mt-1">Better Decisions</p>
             </div>
           </div>

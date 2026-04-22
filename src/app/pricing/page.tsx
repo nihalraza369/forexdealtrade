@@ -48,8 +48,8 @@ export default function PricingPage() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background:
-              'radial-gradient(circle at 8% 12%, rgba(249,115,22,0.24), transparent 44%), radial-gradient(circle at 90% 85%, rgba(194,65,12,0.2), transparent 40%)',
+              background:
+                'radial-gradient(circle at 8% 12%, rgba(168,85,247,0.24), transparent 44%), radial-gradient(circle at 90% 85%, rgba(109,40,217,0.2), transparent 40%)',
           }}
         />
 
@@ -57,13 +57,13 @@ export default function PricingPage() {
           <div className="flex items-center justify-between gap-4 mb-10">
             <a
               href="/"
-              className="text-sm text-orange-200 hover:text-orange-100 transition-colors"
+              className="text-sm text-purple-200 hover:text-purple-100 transition-colors"
             >
               ← Back to Home
             </a>
             <a
               href="#pricing-cards"
-              className="px-6 py-2.5 rounded-full bg-orange-600 text-white text-xs tracking-widest uppercase hover:bg-orange-500 hover:scale-110 shadow-lg hover:shadow-xl transition-all active:scale-95 font-semibold"
+              className="px-6 py-2.5 rounded-full bg-purple-600 text-white text-xs tracking-widest uppercase hover:bg-purple-500 hover:scale-110 shadow-lg hover:shadow-xl transition-all active:scale-95 font-semibold"
             >
               Explore Plans
             </a>
@@ -81,12 +81,12 @@ export default function PricingPage() {
                 key={plan.name}
                 className={
                   plan.featured
-                    ? 'rounded-xl border border-orange-300/40 bg-[#26150f]/90 p-6 shadow-[0_20px_60px_rgba(124,45,18,0.4)]'
+                    ? 'rounded-xl border border-purple-300/40 bg-[#22162f]/90 p-6 shadow-[0_20px_60px_rgba(91,33,182,0.4)]'
                     : 'rounded-xl border border-white/10 bg-dark-3/90 p-6'
                 }
               >
                 {plan.featured && (
-                  <span className="inline-block mb-4 text-[10px] tracking-widest uppercase bg-orange-500/20 text-orange-200 border border-orange-300/30 px-3 py-1 rounded-sm">
+                  <span className="inline-block mb-4 text-[10px] tracking-widest uppercase bg-purple-500/20 text-purple-200 border border-purple-300/30 px-3 py-1 rounded-sm">
                     Most Popular
                   </span>
                 )}
@@ -112,7 +112,7 @@ export default function PricingPage() {
                   href="/contact"
                   className={
                     plan.featured
-                      ? 'block text-center rounded-full py-3 bg-orange-600 hover:bg-orange-500 hover:scale-105 text-white text-sm font-semibold transition-all shadow-lg hover:shadow-xl active:scale-95'
+                      ? 'block text-center rounded-full py-3 bg-purple-600 hover:bg-purple-500 hover:scale-105 text-white text-sm font-semibold transition-all shadow-lg hover:shadow-xl active:scale-95'
                       : 'block text-center rounded-full py-3 border border-gold/40 text-amber-100 hover:bg-gold/10 hover:border-gold/70 hover:scale-105 text-sm font-semibold transition-all active:scale-95'
                   }
                 >

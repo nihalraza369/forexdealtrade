@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 :root {
-  --gold: #f97316;
-  --gold-light: #fb923c;
-  --gold-dim: #9a3412;
+  --gold: #8b5cf6;
+  --gold-light: #a78bfa;
+  --gold-dim: #6d28d9;
 }
 
 html {

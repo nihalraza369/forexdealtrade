@@ -19,8 +19,8 @@ export default function About() {
 
         {/* Visual card */}
         <div className="bg-dark-4 border border-gold/10 rounded-lg p-10 text-center">
-          <div className="font-serif text-6xl font-bold text-gold mb-2">FD</div>
-          <div className="text-stone-500 text-xs tracking-widest mb-8">ForexDeals Karachi</div>
+          <div className="font-black uppercase text-4xl md:text-5xl text-gold mb-2 tracking-[0.18em]">DrWhoTrades</div>
+          <div className="text-stone-500 text-xs tracking-widest mb-8">DrWhoTrades</div>
           <div className="grid grid-cols-2 gap-3">
             {metrics.map(m => (
               <div key={m.label} className="bg-dark-3 border border-gold/10 rounded p-4 text-center">
@@ -34,18 +34,18 @@ export default function About() {
         {/* Text */}
         <div>
           <span className="section-tag">About Us</span>
-          <h2 className="font-serif text-3xl font-bold text-amber-50 mb-4">
+          <h2 className="font-serif text-3xl font-bold text-purple-100 mb-4">
             Training Future Forex Experts
           </h2>
           <p className="text-stone-400 text-sm leading-relaxed mb-3">
-            ForexDeals Karachi ek professional forex training institute hai jo Pakistan ke
+            DrWhoTrades ek professional forex training institute hai jo Pakistan ke
             traders ko world-class education deta hai. Hamara mission simple hai: Seekho, Trade Karo, Grow Karo.
           </p>
           <p className="text-stone-400 text-sm leading-relaxed mb-6">
             Hamari team experienced traders par mabni hai jo real markets mein trade karte hain
             aur apna knowledge students ke saath share karte hain.
           </p>
-          <ul className="space-y-0 divide-y divide-gold/10">
+          <ul className="space-y-0 divide-y divide-purple-500/10">
             {points.map(p => (
               <li key={p} className="flex items-center gap-3 py-3 text-sm text-stone-400">
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />

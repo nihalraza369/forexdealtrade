@@ -4,8 +4,7 @@ import { useState } from 'react'
 
 const contactMethods = [
   { icon: 'WA', label: 'WhatsApp', value: '+92 300 0000000', href: 'https://wa.me/923000000000' },
-  { icon: 'IG', label: 'Instagram', value: '@forexdealskarachi', href: 'https://instagram.com/forexdealskarachi' },
-  { icon: 'PK', label: 'Location', value: 'Karachi, Pakistan', href: null },
+  { icon: 'IG', label: 'Instagram', value: '@DrWhoTrades', href: 'https://instagram.com/DrWhoTrades' },
 ]
 
 export default function Contact() {
@@ -35,7 +34,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           {/* Contact info */}
           <div>
-            <h3 className="font-serif text-2xl font-bold text-amber-50 mb-3">Get In Touch</h3>
+            <h3 className="font-serif text-2xl font-bold text-purple-100 mb-3">Get In Touch</h3>
             <p className="text-stone-400 text-sm leading-relaxed mb-8">
               Ask about our courses, signals, or mentorship. Our team responds quickly.
             </p>
@@ -43,13 +42,13 @@ export default function Contact() {
               {contactMethods.map(c => {
                 const Inner = (
                   <div className="flex items-center gap-4 bg-dark-3 border border-gold/10
-                    rounded-lg px-4 py-3.5 hover:border-orange-500/70 transition-colors">
-                    <div className="w-9 h-9 bg-gold/10 rounded flex items-center justify-center text-[11px] font-semibold tracking-wide text-orange-200 flex-shrink-0">
+                    rounded-lg px-4 py-3.5 hover:border-purple-500/70 transition-colors">
+                    <div className="w-9 h-9 bg-gold/10 rounded flex items-center justify-center text-[11px] font-semibold tracking-wide text-purple-200 flex-shrink-0">
                       {c.icon}
                     </div>
                     <div>
                       <div className="text-stone-500 text-xs tracking-wide">{c.label}</div>
-                      <div className="text-amber-100 text-sm font-medium">{c.value}</div>
+                      <div className="text-purple-100 text-sm font-medium">{c.value}</div>
                     </div>
                   </div>
                 )
@@ -76,7 +75,7 @@ export default function Contact() {
                 value={form.name}
                 onChange={e => setForm({ ...form, name: e.target.value })}
                 className="w-full bg-dark-4 border border-gold/10 rounded-lg px-3.5 py-2.5
-                  text-amber-100 text-sm outline-none focus:border-orange-500/70
+                  text-purple-100 text-sm outline-none focus:border-purple-500/70
                   placeholder:text-stone-600 transition-colors"
               />
             </div>
@@ -89,7 +88,7 @@ export default function Contact() {
                 value={form.phone}
                 onChange={e => setForm({ ...form, phone: e.target.value })}
                 className="w-full bg-dark-4 border border-gold/10 rounded-lg px-3.5 py-2.5
-                  text-amber-100 text-sm outline-none focus:border-orange-500/70
+                  text-purple-100 text-sm outline-none focus:border-purple-500/70
                   placeholder:text-stone-600 transition-colors"
               />
             </div>
@@ -102,7 +101,7 @@ export default function Contact() {
                 value={form.message}
                 onChange={e => setForm({ ...form, message: e.target.value })}
                 className="w-full bg-dark-4 border border-gold/10 rounded-lg px-3.5 py-2.5
-                  text-amber-100 text-sm outline-none focus:border-orange-500/70
+                  text-purple-100 text-sm outline-none focus:border-purple-500/70
                   placeholder:text-stone-600 transition-colors resize-none"
               />
             </div>

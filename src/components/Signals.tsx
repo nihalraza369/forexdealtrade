@@ -5,7 +5,7 @@ export default function Signals() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(circle at 8% 12%, rgba(249,115,22,0.2), transparent 45%), radial-gradient(circle at 85% 80%, rgba(194,65,12,0.18), transparent 42%)',
+            'radial-gradient(circle at 8% 12%, rgba(168,85,247,0.22), transparent 45%), radial-gradient(circle at 85% 80%, rgba(109,40,217,0.2), transparent 42%)',
         }}
       />
 
@@ -15,10 +15,10 @@ export default function Signals() {
             <video
               controls
               preload="metadata"
-              poster="/aralllaa.PNG"
+              poster="/drintro.PNG"
               className="w-full h-[280px] sm:h-[360px] md:h-[380px] object-cover rounded-lg border border-white/10 bg-black"
             >
-              <source src="/forexdeals-overview.mp4" type="video/mp4" />
+              <source src="/drwhotrades-overview.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="absolute inset-0 flex items-center justify-center rounded-lg pointer-events-none">
@@ -33,28 +33,28 @@ export default function Signals() {
         </div>
 
         <div>
-          <span className="section-tag">About ForexDeals</span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-amber-50 mb-4 md:mb-5 leading-tight">
-            What is ForexDeals?
+          <span className="section-tag">About DrWhoTrades</span>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-purple-100 mb-4 md:mb-5 leading-tight">
+            What is DrWhoTrades?
           </h2>
           <p className="text-stone-300 text-xs sm:text-sm md:text-base leading-relaxed mb-3 md:mb-4">
-            ForexDeals Karachi is a results-focused trading platform where beginners and advanced students alike receive practical forex education. Our goal isn't just theory – it's building real market understanding, risk management, and disciplined trading habits.
+            DrWhoTrades is a results-focused trading platform where beginners and advanced students alike receive practical forex education. Our goal isn't just theory – it's building real market understanding, risk management, and disciplined trading habits.
           </p>
           <p className="text-stone-300 text-xs sm:text-sm md:text-base leading-relaxed mb-5 md:mb-7">
             We focus on complete trader development: structured learning modules, live market practice, performance tracking, and long-term consistency. This means you won't just follow signals – you become a strong, independent decision-maker trader.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3">
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-3 sm:px-4 py-3 sm:py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Learning</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-3 sm:px-4 py-3 sm:py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Learning</p>
               <p className="text-white font-semibold text-sm mt-1">Step by Step</p>
             </div>
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-3 sm:px-4 py-3 sm:py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Execution</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-3 sm:px-4 py-3 sm:py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Execution</p>
               <p className="text-white font-semibold text-sm mt-1">Practical Workflow</p>
             </div>
-            <div className="rounded-lg border border-orange-300/25 bg-orange-500/10 px-3 sm:px-4 py-3 sm:py-4">
-              <p className="text-orange-200 text-xs uppercase tracking-widest">Outcome</p>
+            <div className="rounded-lg border border-purple-300/25 bg-purple-500/10 px-3 sm:px-4 py-3 sm:py-4">
+              <p className="text-purple-200 text-xs uppercase tracking-widest">Outcome</p>
               <p className="text-white font-semibold text-sm mt-1">Consistent Growth</p>
             </div>
           </div>

@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ForexDeals Karachi | Pro Signals & Courses',
-  description: 'Karachi\'s #1 Forex Training Institute. Learn, Trade, Grow with professional signals and premium courses.',
+  title: 'DrWhoTrades | Pro Signals & Courses',
+  description: 'A top Forex Training Institute. Learn, Trade, Grow with professional signals and premium courses.',
 }
 
 export default function RootLayout({

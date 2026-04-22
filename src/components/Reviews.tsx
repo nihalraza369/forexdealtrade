@@ -46,7 +46,7 @@ export default function Reviews() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(circle at 10% 18%, rgba(249,115,22,0.2), transparent 40%), radial-gradient(circle at 85% 88%, rgba(194,65,12,0.16), transparent 38%)',
+            'radial-gradient(circle at 10% 18%, rgba(168,85,247,0.2), transparent 40%), radial-gradient(circle at 85% 88%, rgba(109,40,217,0.16), transparent 38%)',
         }}
       />
 
@@ -55,7 +55,7 @@ export default function Reviews() {
           <span className="section-tag">Student Reviews</span>
           <h2 className="text-white text-4xl md:text-5xl font-semibold leading-tight">
             Traders Love The
-            <span className="text-orange-400"> ForexDeals Experience</span>
+            <span className="text-purple-400"> DrWhoTrades Experience</span>
           </h2>
           <p className="text-stone-300 text-sm md:text-base mt-3 max-w-3xl mx-auto">
             Real learner feedback in a continuous loop. See what our community is achieving.
@@ -72,13 +72,13 @@ export default function Reviews() {
                 <div className="flex items-center justify-between gap-3 mb-4">
                   <div>
                     <h3 className="text-white text-base font-semibold">{item.name}</h3>
-                    <p className="text-orange-200 text-xs tracking-wide mt-0.5">{item.role}</p>
+                    <p className="text-purple-200 text-xs tracking-wide mt-0.5">{item.role}</p>
                   </div>
-                  <img src="/fxarlogo.png" alt="ForexDeals" className="h-7 w-auto opacity-85" />
+                  <span className="text-[11px] font-black uppercase tracking-[0.16em] text-purple-200">DrWhoTrades</span>
                 </div>
                 <p className="text-stone-300 text-sm leading-relaxed min-h-[74px]">{item.text}</p>
-                <div className="mt-4 rounded-lg border border-orange-300/30 bg-orange-500/10 px-3 py-2 inline-block">
-                  <span className="text-orange-200 text-xs tracking-wide">{item.gain}</span>
+                <div className="mt-4 rounded-lg border border-purple-300/30 bg-purple-500/10 px-3 py-2 inline-block">
+                  <span className="text-purple-200 text-xs tracking-wide">{item.gain}</span>
                 </div>
               </article>
             ))}
@@ -93,13 +93,13 @@ export default function Reviews() {
                 <div className="flex items-center justify-between gap-3 mb-4">
                   <div>
                     <h3 className="text-white text-base font-semibold">{item.name}</h3>
-                    <p className="text-orange-200 text-xs tracking-wide mt-0.5">{item.role}</p>
+                    <p className="text-purple-200 text-xs tracking-wide mt-0.5">{item.role}</p>
                   </div>
-                  <img src="/fxarlogo.png" alt="ForexDeals" className="h-7 w-auto opacity-85" />
+                  <span className="text-[11px] font-black uppercase tracking-[0.16em] text-purple-200">DrWhoTrades</span>
                 </div>
                 <p className="text-stone-300 text-sm leading-relaxed min-h-[74px]">{item.text}</p>
-                <div className="mt-4 rounded-lg border border-orange-300/30 bg-orange-500/10 px-3 py-2 inline-block">
-                  <span className="text-orange-200 text-xs tracking-wide">{item.gain}</span>
+                <div className="mt-4 rounded-lg border border-purple-300/30 bg-purple-500/10 px-3 py-2 inline-block">
+                  <span className="text-purple-200 text-xs tracking-wide">{item.gain}</span>
                 </div>
               </article>
             ))}

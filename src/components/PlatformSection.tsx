@@ -35,7 +35,7 @@ export default function PlatformSection() {
 
             <a
               href="/pricing"
-              className="inline-flex w-fit items-center gap-2 mt-6 rounded-full bg-orange-500 hover:bg-orange-400 text-white px-5 py-2.5 text-sm font-semibold transition-colors"
+              className="inline-flex w-fit items-center gap-2 mt-6 rounded-full bg-purple-500 hover:bg-purple-400 text-white px-5 py-2.5 text-sm font-semibold transition-colors"
             >
               Buy Course
               <span className="w-5 h-5 rounded-full bg-white/20 grid place-items-center text-xs">
@@ -54,8 +54,8 @@ export default function PlatformSection() {
             <svg viewBox="0 0 520 220" className="relative w-full h-[180px] md:h-[190px]">
               <defs>
                 <linearGradient id="lineGlowPlatform" x1="0" y1="0" x2="1" y2="0">
-                  <stop offset="0%" stopColor="#f97316" />
-                  <stop offset="100%" stopColor="#fb923c" />
+                  <stop offset="0%" stopColor="#8b5cf6" />
+                  <stop offset="100%" stopColor="#c084fc" />
                 </linearGradient>
               </defs>
               <path
@@ -83,7 +83,7 @@ export default function PlatformSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <article className="rounded-3xl border border-white/10 bg-[#111317]/95 p-5 md:p-6">
-            <p className="text-xs tracking-[0.2em] uppercase text-orange-300 mb-4">Top Traders</p>
+            <p className="text-xs tracking-[0.2em] uppercase text-purple-300 mb-4">Top Traders</p>
             <div className="space-y-3">
               {[
                 { name: 'Ali Raza', pair: 'XAU/USD', profit: '+$126.40' },
@@ -96,7 +96,7 @@ export default function PlatformSection() {
                     <p className="text-sm text-white font-medium">{row.name}</p>
                     <p className="text-[11px] text-stone-400 mt-0.5">{row.pair}</p>
                   </div>
-                  <p className="text-sm text-orange-300 font-semibold">{row.profit}</p>
+                  <p className="text-sm text-purple-300 font-semibold">{row.profit}</p>
                 </div>
               ))}
             </div>
@@ -107,9 +107,9 @@ export default function PlatformSection() {
               className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full"
               style={{ background: 'radial-gradient(circle, rgba(249,115,22,0.32) 0%, rgba(249,115,22,0) 70%)' }}
             />
-            <p className="relative text-xs tracking-[0.2em] uppercase text-orange-300 mb-6">Secure Execution</p>
+            <p className="relative text-xs tracking-[0.2em] uppercase text-purple-300 mb-6">Secure Execution</p>
             <div className="relative flex items-center justify-center py-6">
-              <div className="w-20 h-20 rounded-full bg-orange-500/30 border border-orange-300/50 flex items-center justify-center text-2xl text-orange-100">
+              <div className="w-20 h-20 rounded-full bg-purple-500/30 border border-purple-300/50 flex items-center justify-center text-2xl text-purple-100">
                 OK
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function PlatformSection() {
             </div>
             <a
               href="/pricing"
-              className="relative mt-6 inline-block text-sm font-semibold text-orange-300 hover:text-orange-200 transition-colors"
+              className="relative mt-6 inline-block text-sm font-semibold text-purple-300 hover:text-purple-200 transition-colors"
             >
               Buy Course &rarr;
             </a>

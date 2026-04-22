@@ -9,7 +9,7 @@ export default function Hero() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const msg = encodeURIComponent(
-      `Hello! My name is ${form.name}.\nContact: ${form.phone}\n\nI want to enroll in the ForexDeals course.`
+      `Hello! My name is ${form.name}.\nContact: ${form.phone}\n\nI want to enroll in the DrWhoTrades course.`
     )
     window.open(`https://wa.me/923000000000?text=${msg}`, '_blank')
     setSubmitted(true)
@@ -25,7 +25,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0 hidden md:block"
         style={{
-          backgroundImage: 'url(/arsalan.png)',
+          backgroundImage: 'url(/gemini.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center right',
           backgroundRepeat: 'no-repeat',
@@ -40,26 +40,20 @@ export default function Hero() {
         }}
       />
 
-      {/* Dark overlay — left heavy, right light (person visible) */}
+      {/* Top fade */}
       <div
         className="absolute inset-0 z-10"
         style={{
-          background: '',
+          background: 'linear-gradient(to bottom, rgba(12,6,4,0.22) 0%, transparent 32%)',
         }}
       />
 
-      {/* Top/bottom fade */}
+      {/* Bottom black shadow */}
       <div
-        className="absolute inset-0 z-10"
+        className="absolute inset-x-0 bottom-0 z-10 h-56 pointer-events-none"
         style={{
-          background: 'linear-gradient(to bottom, rgba(12,6,4,0.58) 0%, transparent 20%, transparent 80%, rgba(12,6,4,0.92) 100%)',
+          background: 'linear-gradient(to top, rgba(0,0,0,0.96) 0%, rgba(0,0,0,0.7) 38%, rgba(0,0,0,0) 100%)',
         }}
-      />
-
-      {/* Orange tint */}
-      <div
-        className="absolute inset-0 z-10"
-        style={{ background: 'rgba(121,38,9,0.26)' }}
       />
 
       {/* CONTENT — left side */}
@@ -74,14 +68,11 @@ export default function Hero() {
                 style={{
                   fontSize: 'clamp(24px, 5vw, 30px)',
                   color: '#fff',
-                  textShadow: '0 0 40px rgba(249,115,22,0.45)',
+                  textShadow: '0 0 40px rgba(168,85,247,0.45)',
                   letterSpacing: '-0.01em',
                 }}
               >
-                FOREX<span style={{ color: '#f97316' }}>DEALS</span>
-              </div>
-              <div className="text-xs tracking-[0.2em] text-orange-200 font-medium mt-0.5">
-                KARACHI
+                DRWHO<span style={{ color: '#a855f7' }}>TRADES</span>
               </div>
             </div>
           </div>
@@ -115,15 +106,15 @@ export default function Hero() {
             }}
           >
             FOREX TRADING<br />
-            <span style={{ color: '#f97316' }}>LEARN</span><br />
+            <span style={{ color: '#a855f7' }}>LEARN</span><br />
             THE EASY WAY
           </h1>
 
           {/* Subtitle */}
-          <p className="text-orange-100 text-base mb-1 leading-relaxed">
+          <p className="text-purple-100 text-base mb-1 leading-relaxed">
             And build your path to <strong className="text-white">financial freedom</strong>
           </p>
-          <p className="text-orange-200 text-sm mb-8">
+          <p className="text-purple-200 text-sm mb-8">
             Enter your name and WhatsApp number to start:
           </p>
 
@@ -135,14 +126,13 @@ export default function Hero() {
               placeholder="ENTER YOUR NAME"
               value={form.name}
               onChange={e => setForm({ ...form, name: e.target.value })}
-              className="w-full px-5 py-4 text-sm font-medium outline-none placeholder:text-orange-200/50 transition-all"
+              className="w-full px-5 py-4 text-sm font-medium outline-none placeholder:text-purple-200/50 transition-all"
               style={{
                 background: 'rgba(34,14,8,0.62)',
                 border: '1px solid rgba(255,255,255,0.18)',
                 borderRadius: '12px',
                 color: '#fff',
                 letterSpacing: '0.08em',
-                backdropFilter: 'blur(8px)',
               }}
             />
             <input
@@ -151,25 +141,24 @@ export default function Hero() {
               placeholder="ENTER YOUR WHATSAPP NUMBER"
               value={form.phone}
               onChange={e => setForm({ ...form, phone: e.target.value })}
-              className="w-full px-5 py-4 text-sm font-medium outline-none placeholder:text-orange-200/50 transition-all"
+              className="w-full px-5 py-4 text-sm font-medium outline-none placeholder:text-purple-200/50 transition-all"
               style={{
                 background: 'rgba(34,14,8,0.62)',
                 border: '1px solid rgba(255,255,255,0.18)',
                 borderRadius: '12px',
                 color: '#fff',
                 letterSpacing: '0.08em',
-                backdropFilter: 'blur(8px)',
               }}
             />
             <button
               type="submit"
               className="w-full py-4 font-black tracking-widest text-sm uppercase transition-all hover:shadow-lg hover:scale-105 active:scale-100"
               style={{
-                background: 'linear-gradient(90deg, #ea580c 0%, #f97316 100%)',
+                background: 'linear-gradient(90deg, #7c3aed 0%, #a855f7 100%)',
                 borderRadius: '12px',
                 color: '#fff',
                 letterSpacing: '0.12em',
-                boxShadow: '0 4px 30px rgba(249,115,22,0.45)',
+                boxShadow: '0 4px 30px rgba(168,85,247,0.45)',
               }}
             >
               {submitted ? 'REGISTERED ✓' : 'REGISTER NOW →'}
